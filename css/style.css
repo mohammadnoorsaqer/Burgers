@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body
+{
+    font-family: "Dancing Script", cursive;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container
+{
+    background: url('../images/landing-burger.webp');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav .logo h1
+{
+color: white;
+}
+.main-nav
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+nav .primary-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.main-nav .active
+{
+color:rgb(255, 213, 0);
+}
+.main-nav .li-nav
+{
+    font-family: cursive;
+    color: white;
+}
+.main-nav .li-nav:hover
+{
+    color:rgb(255, 213, 0);
+}
+nav .icons
+{
+    display: flex;
+    gap: 15px;
+}
+nav .icons span
+{
+color: white;
+}
+nav .primary-btn button
+{
+    padding: 15px;
+    background-color:rgb(255, 213, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+}
+.container .text .primary-btn button
+{
+    padding: 15px;
+    background-color:rgb(255, 213, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+}
+.primary-btn button
+{
+    padding: 15px;
+    background-color:rgb(255, 213, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+}
+ .text
+{
+    color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+ .text h1
+{
+    font-weight: 700;
+    line-height: 16px;
+}
+ .text p
+{
+    font-size:12px;
+}
+.circles
+{
+    color: white;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+}
+.circles .active
+{
+    color: rgb(255, 213, 0);
+    font-size: 20px;
+
+}
+/* end of landing */
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 1rem; */
+    margin-top: 2rem;
+    height: 195px;
+}
+.card
+{
+    width: 450px;
+    height: auto;
+    background-color: #322e4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.card .image img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 213, 0);
+}
+.card .image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.card .text .primary-btn 
+{
+    margin-bottom: 3rem;    
+}
+/* end of cards */
+.menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .smaller-nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .smaller-nav .text h1
+{
+    color: black;
+    margin-right: 5rem;
+}
+.menu .smaller-nav .small-nav ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.small-nav .active
+{
+    background-color: #322e4b;
+    border-radius: 16px;
+}
+.menu .smaller-nav .small-nav ul li
+{
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+}
+.menu .smaller-nav .small-nav ul li:hover
+{
+    background-color: #322e4b;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white;
+}
+.food-cards
+{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 10px;  
+}
+.food-cards .food-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.food-box .image img
+{
+    height: 100px;
+    width: 100px;
+}
+.food-box .contain
+{
+    background-color: #322e4b;
+    width: 66%;
+    border-radius: 16px;
+    height: 315px;
+    position: relative;
+}
+.food-box .image
+{
+    background-color: #e5e5e5;
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    border-radius: 0px 14px 0px 23px;
+}
+.food-cards .food-box .text 
+{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
+}
+.food-cards .food-box .text h5
+{
+    color: white;
+    font-family: auto;
+}
+.food-cards .food-box .text p
+{
+    color: white;
+    font-family: auto;
+}
+.food-cards .food-box .price
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+.food-cards .food-box .price h6
+{
+    color: white;
+}
+.food-cards .food-box .price .icon
+{
+    color: white;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    /* border: none; */
+    background-color: rgb(255, 213, 0);
+}
+.big-container
+{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+}
+.mid-btn .primary-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.mid-btn .primary-btn button
+{
+    padding: 15px;
+    background-color: rgb(255, 213, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+}
+section
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #322e4b;
+    justify-content: center;
+    align-items: center;
+}
+.left-section .about-img img
+{
+    height: 450px;
+    margin-top: 2rem;
+}
+.left-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-section .text p
+{
+    font-family: monospace;
+}
+.right-section .primary-btn
+{
+margin-top: 2rem;
+}
+main
+{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+main .form-left
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+main .form-left form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* width: 70%; */
+    font-size: 23px;
+}
+main .form-left form .primary-btn button
+{
+    padding: 15px;
+    background-color: rgb(255, 213, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+}
+main .google-img-right img
+{
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+    margin-bottom: 2rem;
+}
+main .google-img-right 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .card-text 
+{
+    margin-left: 2rem;
+    padding: 1rem;
+}
+.card .card-text p
+{
+    color: white;
+    font-family: normal;
+}
+.card .card-text h4,h5
+{
+    color: white;
+    font-family: normal;
+}
+.big-container .header
+{
+    display: flex;
+    justify-content: center
+    ;
+}
+.big-container .small-img
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    position: relative
+}
+.big-container .small-img img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 213, 0);
+    position: relative;
+}
+.big-container .small-img .triangle {
+    position: absolute;
+    bottom: 99%;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 0px;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgb(255, 213, 0);
+}
+.big-container .small-img .triangle-2 {
+    position: absolute;
+    bottom: 99%;
+    right: 16rem;
+    transform: translateX(-50%);
+    width: 0px;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgb(255, 213, 0);
+}
+.big-container .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.big-container .slider span {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    position: relative;
+    cursor: pointer;
+}
+.big-container .slider .slider-1::before {
+    position: absolute;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;  
+    border-bottom: 10px solid transparent; 
+    border-right: 10px solid white; 
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+.big-container .slider .slider-2::before {
+    position: absolute;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
+footer
+{
+    background-color: #322e4b;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+
+}
+footer .contact-us .text-footer h1
+{
+    color: white;
+}
+
+footer .opening-hours .text-footer h1
+{
+    color: white;
+}
+footer .contact-us .text-footer h5
+{
+    font-family: sans-serif;
+}
+
+footer .info .text-footer h1
+{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+footer .info .text-footer p
+{
+    font-family: sans-serif;
+    color: white;
+
+}
+footer .info .text-footer h3
+{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+footer .info .text-footer .icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+footer .info .text-footer .icons span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon.facebook,
+.icon.twitter,
+.icon.linkedin,
+.icon.instagram,
+.icon.pinterest {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;/
+}
+
+
+
+
